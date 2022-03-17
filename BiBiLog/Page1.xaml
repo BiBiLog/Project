@@ -1,0 +1,19 @@
+﻿<Page x:Class="BiBiLog.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BiBiLog"
+      mc:Ignorable="d" 
+      d:DesignHeight="399" d:DesignWidth="521"
+      Title="Page1">
+
+    <Grid>
+        <TextBox x:Name="Text1" Height="39" Margin="39,183,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" Background="#FFC5A0A0" HorizontalAlignment="Left" Width="104"/>
+        <TextBox x:Name="Text2" Height="39" Margin="185,183,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" Background="#FFC79898" HorizontalAlignment="Left" Width="116"/>
+        <TextBox x:Name="Text3" Height="39" Margin="366,183,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" Background="#FFDEA3A3" HorizontalAlignment="Left" Width="116"/>
+        <Button Content="Рассчитать" Margin="124,261,0,0" VerticalAlignment="Top" Height="27" FontSize="16" Click="Button_Click" HorizontalAlignment="Left" Width="116"/>
+        <Button Content="Очистить" Margin="281,261,0,0" VerticalAlignment="Top" Height="27" FontSize="16" Click="Button_Click_1" HorizontalAlignment="Left" Width="116"/>
+
+    </Grid>
+</Page>
